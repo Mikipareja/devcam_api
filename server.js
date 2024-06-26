@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config({path:'./config/config.env'});
 
 //crear una app a partir de la clase express
-c = express();
+app = express();
 
 //especificar el archivo de rutas campus.js
 const campus = require('./routes/campus');
